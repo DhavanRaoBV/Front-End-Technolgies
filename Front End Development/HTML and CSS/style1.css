@@ -1,0 +1,30 @@
+li{
+    border-bottom: 8px solid black;
+    padding: 5px;
+
+}
+li:last-child{
+    border-bottom: none;
+}
+ul{
+    list-style-type:none;
+}
+
+li:nth-child(even){
+    background-color:darkolivegreen;
+    padding:5px;
+    
+    font-size: 40px;
+    color:white;
+    text-align: center;
+}
+
+li:nth-child(odd){
+    background-color: brown;
+    padding:5px;
+    
+    font-size:40px;
+    color:black;
+    text-align: center;
+
+}
